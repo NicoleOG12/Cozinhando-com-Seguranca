@@ -17,7 +17,168 @@ a, p{	font-size:small; margin:4px}
 a:link, a:visited{color:inheirit; text-decoration:none;	}
 
 /*---------------------------------------------------------*/
+/* Menu Receitas Clara*/
+.bodyC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 207, 220);
+    margin: 0;
+}
 
+.containerC {
+    background-color: #fcbb14;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    width: 600px;
+    height: 350px;
+    position: relative;
+    border: 10px solid #dfa512;
+}
+
+.item-containerC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px; 
+}
+
+.item-boxC {
+    background-color: #ffd463;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-imageC {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item-textC {
+    margin-top: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*---------------------------------------------------------*/
+/* Menu Receitas Júlia*/
+.bodyJ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 207, 220);
+    margin: 0;
+}
+
+.containerJ {
+    background-color: #2eeed4;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    width: 600px;
+    height: 350px;
+    position: relative;
+    border: 10px solid #2ddac3;
+}
+
+.item-containerJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px; 
+}
+
+.item-boxJ {
+    background-color: #8debdd;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-imageJ {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item-textJ {
+    margin-top: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*---------------------------------------------------------*/
+/* Menu Receitas Nicole*/
+.bodyN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 207, 220);
+    margin: 0;
+}
+
+.containerN {
+    background-color: #ff69b4;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    width: 600px;
+    height: 350px;
+    position: relative;
+    border: 10px solid #d85999;
+}
+
+.item-containerN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px; 
+}
+
+.item-boxN {
+    background-color: #ff97d9;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-imageN {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item-textN {
+    margin-top: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*--------------------------------------------------------*/
 .menuprincipalbotao1{
     color:crimson;
     display:block;
