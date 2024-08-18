@@ -18,7 +18,10 @@ a:link, a:visited{color:inheirit; text-decoration:none;	}
 
 /*---------------------------------------------------------*/
 body {
-    background-color: rgb(255, 207, 220);
+    background-image: url('./imagens/Papel\ de\ parede.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
     margin: 0; 
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -69,30 +72,26 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: transparent;
+    background-color:transparent;
     border: none;
-    padding: 15px;
+    padding: 30px;
     cursor: pointer;
     z-index: 3;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .seta-esquerda {
     left: 300px;
-    background-image: url('left-arrow.png');
+    background-image: url('./imagens/Seta\ esquerda.png');
 }
 
 .seta-direita {
     right: 300px;
-    background-image: url('right-arrow.png');
-}
-
-.seta:hover {
-    opacity: 0.8;
+    background-image: url('./imagens/Seta\ Direita.png');
 }
 
 .containerC,
@@ -220,7 +219,7 @@ h1 {
 
 .seta{
     height: 6%; width: 6%;
-    background-color: red;
+    /*background-color: red;*/
 }
 /*--------------------------------------------------------*/
 
@@ -299,6 +298,7 @@ h1 {
     padding: 4%;
     align-content: center;
 }
+
 .telarespostas .opcao p, .telarespostas .opcao a, .telarespostas .opcao a:link, .telarespostas .opcao a:visited{
     font-size: small;
     margin: 0%;
