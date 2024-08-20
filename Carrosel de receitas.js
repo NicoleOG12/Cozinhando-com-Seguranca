@@ -7,6 +7,7 @@ function showSlide(index) {
     slides[currentSlide].classList.add('ativo'); 
 }
 
+
 function nextSlide() {
     showSlide(currentSlide + 1);
 }
@@ -14,5 +15,15 @@ function nextSlide() {
 function prevSlide() {
     showSlide(currentSlide - 1);
 }
+
+document.addEventListener('keydown', function(event){
+        if(event.key === 'ArrowRight') {
+            nextSlide();
+           
+        } else if (event.key === 'ArrowLeft') {
+            prevSlide();
+        } 
+    
+    });
 
 showSlide(currentSlide);

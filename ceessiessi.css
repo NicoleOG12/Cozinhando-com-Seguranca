@@ -180,6 +180,15 @@ h1 {
     display:block;
     margin: 8px;
     font-size: 180%;
+    position: relative;
+    padding-left: 50px;
+}
+
+.bolo{
+    position: absolute;
+    left: 40px;
+    transition: top 0.4s ease;
+    width: 35px;
 }
 
 /*--------------------------------------------------------*/
