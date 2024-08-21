@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
             posicaoAtual = (posicaoAtual - 1 + menuItems.length) % menuItems.length;
             atualizarPosicaoBolo();
         } else if (event.key === 'Enter'){
-            const opcaoSelecionada = menuItems[posicaoAtual].getAttribute('data-action'); executarAction(opcaoSelecionada);
+            const opcaoSelecionada = menuItems[posicaoAtual].getAttribute('data-action'); 
+            executarAction(opcaoSelecionada);
         }
     }
 
@@ -41,3 +42,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', navegarMenu);
     atualizarPosicaoBolo();
 });
+
+
