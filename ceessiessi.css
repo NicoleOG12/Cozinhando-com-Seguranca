@@ -310,3 +310,24 @@ h1 {
     margin: 0%;
     color: black;
 }
+
+.slotingrediente1{
+    background-image:linear-gradient( #ff9afa, rgb(255, 123, 202));
+    border-style: solid;
+    border-color: #15000d;
+    margin: 8%;
+    border-radius: 10%;
+    border-width: thin;
+    padding: 3%;
+}
+
+.slotingrediente2{
+    border-style: solid;
+    border-color: #15000d;
+    border-radius: 8%;
+    border-width: thin;
+    height: 96%;
+    background-size: cover;
+    background-color: #ffc2ce;
+
+}
