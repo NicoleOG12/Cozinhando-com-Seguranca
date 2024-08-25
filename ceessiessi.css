@@ -34,11 +34,9 @@ a:link, a:visited{color:inheirit; text-decoration:none;	}
 
 /*---------------------------------------------------------*/
 body {
-    background-image: url('./imagens/Papel\ de\ parede.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
-    margin: 0; 
     font-family: Arial, sans-serif;
     height: 102%;
     display: flex;
@@ -284,6 +282,12 @@ h1 {
     text-align: center;
 }
 
+.perguntaenunciado{
+
+    background-image: url(./imagens/kitchen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
 .telarespostas{    
     display: grid;
     height: 100%;
@@ -291,7 +295,7 @@ h1 {
     background-color:rgb(209, 152, 247);
     background-image: url(./imagens/kitchen3.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 0%;
 }
 
