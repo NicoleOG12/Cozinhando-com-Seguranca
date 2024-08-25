@@ -18,13 +18,13 @@ a:link, a:visited{color:inheirit; text-decoration:none;	}
 
 /*---------------------------------------------------------*/
 body {
-    background-image: url('./imagens/Papel\ de\ parede.png');
+    //background-image: url('./imagens/Papel\ de\ parede.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
     margin: 0; 
     font-family: Arial, sans-serif;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
