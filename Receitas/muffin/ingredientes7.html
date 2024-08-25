@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Muffin</title>
+    <link rel="stylesheet" href="ingredientes.css">
+</head>
+<body class="perguntaenunciado" style="background-image: linear-gradient(rgb(75, 252, 247), rgb(118, 177, 254));">
+    <!-- ------------------- --> 
+
+    <div class="telaenunciado" style="width: 70%; ">
+        <div style="display: grid; grid-template-columns: 25% 25% 25% 25%; height: 50%;">
+            
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style="background-image: url(../../imagens/farinha.png);">
+                </div>
+            </div>
+
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style="background-image: url(../../imagens/fermento.png);">
+                </div>
+            </div>
+
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style="background-image: url(../../imagens/leite.png);">
+                </div>
+            </div>
+
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style="background-image: url(../../imagens/açucar.png);">
+                </div>
+            </div>
+
+        </div>
+
+        <div style="display: grid; grid-template-columns: 25% 25% 25% 25%; height: 50%;">
+          
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style="background-image: url(../../imagens/oleo.png);">
+                </div>
+            </div>
+            
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" style= "background-image: url(../../imagens/sal.png);">
+                </div>
+            </div>
+
+
+            <div class="slotingrediente1">
+                <div class="slotingrediente2" id="ovo" onclick="revealImage()">
+                </div>
+            </div>
+
+            <div class="slotingrediente1">
+                <div class="slotingrediente2">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="lower">
+        <div></div>
+        <div class="dialogbox">
+            <center style="height:48%;padding:2%">
+                <p class="enunciado">Erica</p>
+                <p class="dialogo">
+                    Seu <b style="color:hotpink"> INGREDIENTE MISTERIOSO</b> é: 
+                </p>
+            </center>
+            <a href="./" style="float:right">
+                <img src="../../imagens/Seta Direita.png" style="height:30px; padding-right:4px">
+            </a>
+        </div>
+        <div></div>
+    </div>
+
+    <script src="ingredientes.js"></script>
+</body>
+</html>
