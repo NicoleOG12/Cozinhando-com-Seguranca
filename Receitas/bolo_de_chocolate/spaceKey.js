@@ -7,12 +7,12 @@ document.addEventListener('keydown', function(event) {
         const pagAtual = window.location.pathname.split('/').pop();
 
        
-        const posicaoAtual = pages.indexOf(pagAtual);
+        const posicaoAtual = pag.indexOf(pagAtual);
 
       
-        if (currentIndex !== -1) {
+        if (posicaoAtual !== -1) {
            
-            const proximaPosicao = (posicaoAtual + 1) % pages.length; 
+            const proximaPosicao = (posicaoAtual + 1) % pag.length; 
 
            
             window.location.href = pag[proximaPosicao];
