@@ -1,0 +1,389 @@
+
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 720px; width: 1280px;*/
+    height: 98%; width: 100%;
+    padding: 0%;
+}
+
+body{margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color:PINK;
+    }
+
+a, p{	font-size:small; margin:4px}
+a:link, a:visited{color:inheirit; text-decoration:none;	}
+
+/*---------------------------------------------------------*/
+body {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    height: 102%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin: 20px 0;
+    font: size 200px;
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carrossel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.9s ease;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carrossel-item.ativo {
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:transparent;
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    z-index: 3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.seta-esquerda {
+    left: 300px;
+    background-image: url('./imagens/Seta\ esquerda.png');
+}
+
+.seta-direita {
+    right: 300px;
+    background-image: url('./imagens/Seta\ Direita.png');
+}
+
+.containerC,
+.containerJ,
+.containerN {
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+
+.containerC {
+    background-color: #fcbb14;
+    border: 10px solid #dfa512;
+}
+
+.containerJ {
+    background-color: #2eeed4;
+    border: 10px solid #2ddac3;
+}
+
+.containerN {
+    background-color: #ff69b4;
+    border: 10px solid #d85999;
+}
+
+.item-containerC,
+.item-containerJ,
+.item-containerN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px;
+}
+
+.item-boxC {
+    background-color: #ffd463;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-boxJ {
+    background-color: #8debdd;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-boxN {
+    background-color: #ff97d9;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.item-imageC,
+.item-imageJ,
+.item-imageN {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item-textC,
+.item-textJ,
+.item-textN {
+    margin-top: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*--------------------------------------------------------*/
+.menuprincipalbotao1{
+    color:crimson;
+    display:block;
+    margin: 8px;
+    font-size: 180%;
+    position: relative;
+    padding-left: 50px;
+}
+
+.bolo{
+    position: absolute;
+    left: 40px;
+    transition: top 0.4s ease;
+    width: 35px;
+}
+
+/*--------------------------------------------------------*/
+/*sobre,perguntas,conceptart*/
+.textboxprincipal{
+    margin-left:8%; margin-right:8%;
+    border-style: none solid none solid;
+    border-width: thin;
+    border-color: hotpink;
+    height: 92%;
+    padding:2%;  
+    background-color: rgb(255, 223, 240);
+}
+/*
+.receita, .pergunta, .alternativa{
+    font-size: small;
+    border-style:solid none solid solid;
+}
+.receita, .pergunta, .alternativa, .resposta{
+    border-color:rgb(255, 207, 220);
+    border-width:thin;
+    padding:4px;
+    margin:0px;
+}
+.resposta{
+    text-align:center;
+    border-style:solid;
+}*/
+
+/*--------------------------------------------------------*/
+
+
+.quadro_de_receitas{
+    background-color: white;
+    height: 40%;
+}
+
+.seta{
+    height: 6%; width: 6%;
+    /*background-color: red;*/
+}
+/*--------------------------------------------------------*/
+
+.telaenunciado{
+    height: 70%;
+}
+
+.lower{
+    display: grid;
+    height: 30%;
+    width:100%;
+    grid-template-columns: 8% 84% 8%;
+}
+
+.dialogbox{
+    background-image: linear-gradient(rgb(255, 215, 222), rgb(253, 182, 194));
+    border-style:solid;
+    border-color: rgb(255, 238, 240);
+    border-radius: 18px;
+    border-width: thin;
+    height: 84%;
+    margin:none 2% 2% 2%;
+}
+
+.dialogo{
+    font-size: medium;
+    margin: 0.4% 4% 2% 4%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+.dialogbox .enunciado, .telarespostas .enunciado{
+    font-size: large;
+    color: rgb(212, 0, 255);
+    text-align: center;
+}
+
+.perguntaenunciado{
+
+    background-image: url(./imagens/kitchen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.telarespostas{    
+    display: grid;
+    height: 100%;
+    grid-template-columns: 62% 38%;
+    background-color:rgb(209, 152, 247);
+    background-image: url(./imagens/kitchen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+}
+
+.telarespostas .pergunta{
+    font-size: large;
+    background-color: rgb(223, 205, 208);
+    margin: 6% 4% 0% 4%; 
+    padding: 2% 4% 2% 4%; 
+    background-image: linear-gradient(rgb(255, 215, 222), rgb(253, 182, 194));
+    border-style:solid;
+    border-color: rgb(255, 238, 240);
+    border-radius: 12px;
+    border-width: thin;
+}
+
+.opcoes{
+    margin-top: 2%;
+    width: 80%;
+    height:26%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 4%;
+    margin-left: -2%;
+    color: rgb(0, 0, 0);
+}
+
+.telarespostas .opcao{
+    background-image: linear-gradient(rgb(255, 215, 222), rgb(255, 159, 171));
+    height: 100%; 
+    border-style:solid;
+    border-color: rgb(255, 238, 240);
+    border-radius: 12px;
+    border-width: thin;
+    padding: 4%;
+    align-content: center;
+    transition: transform .5s;
+}
+
+.opcao:hover{
+    transform: scale(1.2);
+    border: 3px solid rgb(255, 0, 106);
+ }
+
+.telarespostas .opcao p, .telarespostas .opcao a, .telarespostas .opcao a:link, .telarespostas .opcao a:visited{
+    font-size: 20px;
+    margin: 0%;
+    color: rgb(255, 0, 98);
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.slotingrediente1{
+    background-image:linear-gradient( #ff9afa, rgb(255, 123, 202));
+    border-style: solid;
+    border-color: #15000d;
+    margin: 8%;
+    border-radius: 10%;
+    border-width: thin;
+    padding: 3%;
+}
+
+.slotingrediente2{
+    border-style: solid;
+    border-color: #15000d;
+    border-radius: 8%;
+    border-width: thin;
+    height: 96%;
+    background-size: cover;
+    background-color: #ffc2ce;
+
+}
+
+.fade {
+    border-radius: 90px;
+    width: 190px;
+    top: 40px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade.ativo {
+    opacity: 1;
+}
+
+.pergunta2{
+    font-weight: 800;
+    font-size: large;
+    font-family: "QuickSand";
+    color: #444444;
+}
