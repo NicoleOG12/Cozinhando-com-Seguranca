@@ -313,7 +313,7 @@ h1 {
 
 .opcoes{
     margin-top: 2%;
-    width: 80%;
+    width: 90%;
     height:26%;
     display: grid;
     grid-template-columns: 32% 32% 32%;
@@ -322,7 +322,7 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-.telarespostas .opcao{
+/*.telarespostas .opcao{
     background-image: linear-gradient(rgb(255, 215, 222), rgb(255, 159, 171));
     height: 100%; 
     border-style:solid;
@@ -332,6 +332,14 @@ h1 {
     padding: 4%;
     align-content: center;
     transition: transform .5s;
+}*/
+
+input{
+    
+    border: 2px solid red;
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
 }
 
 .opcao:hover{
@@ -339,14 +347,14 @@ h1 {
     border: 3px solid rgb(255, 0, 106);
  }
 
-.telarespostas .opcao p, .telarespostas .opcao a, .telarespostas .opcao a:link, .telarespostas .opcao a:visited{
+/*.telarespostas .opcao p, .telarespostas .opcao a, .telarespostas .opcao a:link, .telarespostas .opcao a:visited{
     font-size: 20px;
     margin: 0%;
     color: rgb(255, 0, 98);
     font-family: "Quicksand";
     font-weight: 600;
     font-style: normal;
-}
+}*/
 
 .slotingrediente1{
     background-image:linear-gradient( #ff9afa, rgb(255, 123, 202));

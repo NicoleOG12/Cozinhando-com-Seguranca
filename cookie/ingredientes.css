@@ -1,0 +1,211 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgb(75, 252, 247), rgb(118, 177, 254));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.telaenunciado {
+    height: 70%;
+}
+
+.lower {
+    display: grid;
+    height: 30%;
+    width: 100%;
+    grid-template-columns: 8% 84% 8%;
+}
+
+.dialogbox {
+    background-image: linear-gradient(rgb(255, 215, 222), rgb(253, 182, 194));
+    border-style: solid;
+    border-color: rgb(255, 238, 240);
+    border-radius: 18px;
+    border-width: thin;
+    height: 84%;
+    margin: none 2% 2% 2%;
+}
+
+.dialogo {
+    font-size: medium;
+    margin: 0.4% 4% 2% 4%;
+}
+
+.dialogbox .enunciado, .telarespostas .enunciado {
+    font-size: large;
+    color: hotpink;
+    text-align: center;
+}
+
+.slotingrediente1 {
+    background-image: linear-gradient(#ff9afa, rgb(255, 123, 202));
+    border-style: solid;
+    border-color: #15000d;
+    margin: 8%;
+    border-radius: 10%;
+    border-width: thin;
+    padding: 3%;
+    position: relative;
+}
+
+.slotingrediente2 {
+    height: 96%;
+    background-color: #ffc2ce;
+    border-style: solid;
+    border-color: #15000d;
+    border-radius: 8%;
+    border-width: thin;
+    background-size: cover;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    cursor: pointer;
+
+}
+
+#ovo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../imagens/ovo.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#ovo.reveal::before {
+    opacity: 1;
+}
+
+#acucar::before {
+    content: '';
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    width: 95%;
+    height: 100%;
+    background-image: url('../../imagens/açucar.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#acucar.reveal::before {
+    opacity: 1;
+}
+
+#farinha::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 90%;
+    height: 100%;
+    background-image: url('../../imagens/farinha.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#farinha.reveal::before {
+    opacity: 1;
+}
+
+#chocolate::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../imagens/chocolate\ em\ pó.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#chocolate.reveal::before {
+    opacity: 1;
+}
+
+#oleo::before {
+    content: '';
+    position: absolute;
+    top: 2%;
+    left: 0;
+    width: 98%;
+    height: 100%;
+    background-image: url('../../imagens/oleo.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#oleo.reveal::before {
+    opacity: 1;
+}
+
+#leite::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-image: url('../../imagens/leite.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#leite.reveal::before {
+    opacity: 1;
+}
+
+#fermento::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-image: url('../../imagens/fermento.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#fermento.reveal::before {
+    opacity: 1;
+}
+
+
