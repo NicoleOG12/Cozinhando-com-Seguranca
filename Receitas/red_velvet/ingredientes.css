@@ -75,14 +75,14 @@ body {
 
 }
 
-#ovo::before {
+#corante::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    background-image: url('../../imagens/ovo.png');
+    background-image: url('../../imagens/coloring.png');
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -90,7 +90,7 @@ body {
     transition: opacity 0.6s ease-in-out;
 }
 
-#ovo.reveal::before {
+#corante.reveal::before {
     opacity: 1;
 }
 
@@ -151,14 +151,14 @@ body {
     opacity: 1;
 }
 
-#oleo::before {
+#baunilha::before {
     content: '';
     position: absolute;
     top: 2%;
     left: 0;
     width: 98%;
     height: 100%;
-    background-image: url('../../imagens/oleo.png');
+    background-image: url('../../imagens/essencia\ de\ baunilha.png');
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -166,7 +166,7 @@ body {
     transition: opacity 0.6s ease-in-out;
 }
 
-#oleo.reveal::before {
+#baunilha.reveal::before {
     opacity: 1;
 }
 
@@ -196,7 +196,7 @@ body {
     left: 10%;
     width: 80%;
     height: 100%;
-    background-image: url('../../imagens/fermento.png');
+    background-image: url('../../imagens/fermento2.png');
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
