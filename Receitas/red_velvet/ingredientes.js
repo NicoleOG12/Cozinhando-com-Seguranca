@@ -1,5 +1,5 @@
 function revealImage() {
-    var element = document.getElementById('ovo');
+    var element = document.getElementById('corante');
     if (element) element.classList.add('reveal');
     
     element = document.getElementById('acucar');
@@ -11,7 +11,7 @@ function revealImage() {
     element = document.getElementById('chocolate');
     if (element) element.classList.add('reveal');
     
-    element = document.getElementById('oleo');
+    element = document.getElementById('baunilha');
     if (element) element.classList.add('reveal');
     
     element = document.getElementById('leite');
