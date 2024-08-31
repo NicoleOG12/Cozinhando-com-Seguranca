@@ -1,9 +1,9 @@
 document.addEventListener('keydown', function(event) {
     if (event.key === ' ') {
        
-        const pag = ['cookies_1.html', 'cookies_2.html', 'cookies_3.html', 'cookies_4.html', 'cookies_5_1.html', './perguntas/Pergunta1Cookie.html', '', '', '', '', '', '']; 
+        const pag = ['bolo_de_chocolate_1.html', 'bolo_de_chocolate_2.html', 'bolo_de_chocolate_3.html', 'bolo_de_chocolate_4.html', 'expositor ingredientes.html', 'expositor ingredientes2.html']; 
 
-
+   
         const pagAtual = window.location.pathname.split('/').pop();
 
        
