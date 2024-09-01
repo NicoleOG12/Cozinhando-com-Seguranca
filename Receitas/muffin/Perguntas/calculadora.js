@@ -19,10 +19,25 @@ function calculateScore() {
     }
 
     const resultElement = document.getElementById('result');
-    if (resultElement) {
-        resultElement.innerText = `Sua pontuação é ${score}`;
+    const imageElement = document.getElementById('result-image');
+
+    if (resultElement && imageElement) {
+       
+
+
+        if (score === 0) {
+            imageElement.src = '../../../imagens/zero estrelas.png';
+        } else if (score >= 1 && score <= 3) {
+            imageElement.src = '../../../imagens/uma estrela.png'; 
+        } else if (score >= 4 && score <= 5) {
+            imageElement.src = '../../../imagens/duas estrelas.png'; 
+        } else if (score >= 6 && score <= 7) {
+            imageElement.src = '../../../imagens/três estrelas.png'; 
+        } else {
+            imageElement.src = '';
+        }
     } else {
-        console.error('Elemento com ID "result" não encontrado.');
+        console.error('Elemento com ID "result" ou "result-image" não encontrado.');
     }
 }
 
