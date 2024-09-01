@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2e2e9;
+    margin: 0;
+}
+
+.machine {
+    width: 300px;
+    height: 500px;
+    background-color: #ff69b4;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.screen {
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.screen img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.lights {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.light {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #ff69b4;
+    border: 3px solid gold;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.button:active {
+    transform: scale(0.1);
+}
+
+.lever {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    width: 20px;
+    height: 100px;
+    background-color: #ff69b4;
+    border: 3px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    transform-origin: top;
+}
+
+.lever:active {
+    transform: rotate(0.2s);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgb(75, 252, 247), rgb(118, 177, 254));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.telaenunciado {
+    height: 70%;
+}
+
+.lower {
+    display: grid;
+    height: 30%;
+    width: 100%;
+    grid-template-columns: 8% 84% 8%;
+}
+
+.dialogbox {
+    background-image: linear-gradient(rgb(255, 215, 222), rgb(253, 182, 194));
+    border-style: solid;
+    border-color: rgb(255, 238, 240);
+    border-radius: 18px;
+    border-width: thin;
+    height: 84%;
+    margin: none 2% 2% 2%;
+}
+
+.dialogo {
+    font-size: medium;
+    margin: 0.4% 4% 2% 4%;
+}
+
+.dialogbox .enunciado, .telarespostas .enunciado {
+    font-size: large;
+    color: rgb(212, 0, 255);
+    text-align: center;
+}
+
+.slotingrediente1 {
+    background-image: linear-gradient(#ff9afa, rgb(255, 123, 202));
+    border-style: solid;
+    border-color: #15000d;
+    margin: 8%;
+    border-radius: 10%;
+    border-width: thin;
+    padding: 3%;
+    position: relative;
+}
+
+.slotingrediente2 {
+    height: 96%;
+    background-color: #ffc2ce;
+    border-style: solid;
+    border-color: #15000d;
+    border-radius: 8%;
+    border-width: thin;
+    background-size: cover;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    cursor: pointer;
+
+}
+
+
+#fermento::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-image: url('../../imagens/fermento.png');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#fermento.reveal::before {
+    opacity: 1;
+}
