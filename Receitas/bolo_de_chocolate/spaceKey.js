@@ -1,7 +1,7 @@
 document.addEventListener('keydown', function(event) {
     if (event.key === ' ') {
        
-        const pag = ['bolo_de_chocolate_1.html', 'bolo_de_chocolate_2.html', 'bolo_de_chocolate_3.html', 'bolo_de_chocolate_4.html', 'expositor ingredientes.html', 'expositor ingredientes2.html']; 
+        const pag = ['bolo_de_chocolate_1.html', 'bolo_de_chocolate_2.html', 'bolo_de_chocolate_3.html', 'bolo_de_chocolate_4.html', 'expositor ingredientes.html', 'expositor ingredientes2.html', '../Perguntas/Pergunta1.html']; 
 
    
         const pagAtual = window.location.pathname.split('/').pop();
