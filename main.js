@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         window.location.href = 'Menu de Receitas.html';
                     } else if (action === 'cartilha') {
                         whiteBg.classList.add('fade-out');
-                        window.location.href = 'Cartilha de Segurança para Internet.html';
+                        window.location.href = 'cartilha.html';
                     }
                 }, 990);
             }, 990); 
