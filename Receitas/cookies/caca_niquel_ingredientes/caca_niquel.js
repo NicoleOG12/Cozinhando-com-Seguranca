@@ -7,9 +7,9 @@ const allImages = [
     '../../../imagens/açucar.png',
     '../../../imagens/farinha.png',
     '../../../imagens/chocolate.png',
-    '../../../imagens/oleo.png',
+    '../../../imagens/essencia de baunilha.png',
     '../../../imagens/leite.png',
-    '../../../imagens/fermento.png',
+    '../../../imagens/manteiga.png',
 ];
 
 let images = [...allImages];

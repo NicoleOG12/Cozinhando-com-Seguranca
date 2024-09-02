@@ -12,22 +12,22 @@ function showSlide(index) {
 
 function nextSlide() {
     showSlide(currentSlide + 1);
-    som2.play();
+    
 }
 
 function prevSlide() {
     showSlide(currentSlide - 1);
-    som2.play();
+    
 }
 
 document.addEventListener('keydown', function(event){
         if(event.key === 'ArrowRight') {
             nextSlide();
-            som2.play()
+            
            
         } else if (event.key === 'ArrowLeft') {
             prevSlide();
-            som2.play()
+            
         } 
     
     });

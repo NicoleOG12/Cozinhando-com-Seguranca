@@ -3,7 +3,7 @@ const lever = document.getElementById('lever');
 const nextQuestionLink = document.getElementById('next-question');
 
 const allImages = [
-    '../../../imagens/corante.png',
+    '../../../imagens/coloring.png',
     '../../../imagens/açucar.png',
     '../../../imagens/farinha.png',
     '../../../imagens/chocolate.png',
