@@ -26,3 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     sessionStorage.removeItem('usedImages');
 });
+
+function revealImage() {
+    var element = document.getElementById('liquidificador');
+    if (element) element.classList.add('reveal');
+}
