@@ -8,7 +8,7 @@ const allImages = [
     '../../../imagens/leite.png',
     '../../../imagens/açucar.png',
     '../../../imagens/oleo.png',
-    '../../../imagens/sal.png',
+    '../../../imagens/Sal.png',
     '../../../imagens/ovo.png',
 ];
 
