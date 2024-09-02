@@ -75,7 +75,7 @@ body{margin: 0%;
     }
 
     #content {
-        z-index: 1; /* Garante que o conteúdo está acima do fundo branco */
+        z-index: 1; 
     }
 
 a, p{	font-size:small; margin:4px}
@@ -460,7 +460,7 @@ h1 {
 .nicoleChibi {
     width: 200px;
     position: absolute;
-    bottom: -100px; 
+    bottom: -70px; 
     right: 150px; 
     margin: 100px; 
 }
